@@ -18,7 +18,7 @@ ip 10.0.20.2 255.255.255.0 10.0.20.1
 3) Switch-3
 
 ```
-Switch#enable
+Switch>enable
 Switch#conf t
 Switch(config)#vlan 10
 Switch(config-vlan)#exit
