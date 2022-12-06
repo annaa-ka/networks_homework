@@ -62,12 +62,12 @@ interface Ethernet0/0
 interface Ethernet0/0.10
  no shutdown
  encapsulation dot1Q 10
- ip address 10.0.10.2 255.255.255.0
+ ip address 10.0.10.1 255.255.255.0
 !
 interface Ethernet0/0.20
  no shutdown
  encapsulation dot1Q 20
- ip address 10.0.20.2 255.255.255.0
+ ip address 10.0.20.1 255.255.255.0
 !
 interface Ethernet0/1
  no shutdown
@@ -110,3 +110,4 @@ line vty 0 4
 !
 !
 end
+

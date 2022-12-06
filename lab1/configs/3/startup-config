@@ -1,6 +1,6 @@
 
 !
-! Last configuration change at 08:15:16 UTC Sun Nov 27 2022
+! Last configuration change at 19:47:55 UTC Tue Dec 6 2022
 !
 version 15.2
 service timestamps debug datetime msec
@@ -34,7 +34,7 @@ spanning-tree extend system-id
 !
 vlan internal allocation policy ascending
 !
-vlan 20 
+vlan 10 
 !
 ! 
 !
@@ -50,7 +50,7 @@ vlan 20
 !
 interface Ethernet0/0
  no shutdown
- switchport trunk allowed vlan 20
+ switchport trunk allowed vlan 10
  switchport trunk encapsulation dot1q
  switchport mode trunk
 !
@@ -59,7 +59,7 @@ interface Ethernet0/1
 !
 interface Ethernet0/2
  no shutdown
- switchport access vlan 20
+ switchport access vlan 10
  switchport mode access
 !
 interface Ethernet0/3
@@ -86,3 +86,4 @@ line vty 0 4
 !
 !
 end
+
