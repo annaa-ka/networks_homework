@@ -53,7 +53,7 @@ Router(dhcp-config)#exit
 Router(config)#exit
 Router#conf t
 Router(config)#access-list 100 permit ip 10.0.0.0 0.255.255.255 any
-Router(config)#ip nat pool NAME_OF_POOL 11.1.1.10 11.1.1.20 netmask 255.255.255.0
+Router(config)#ip nat pool POOL 11.1.1.10 11.1.1.20 netmask 255.255.255.0
 Router(config)#interface e0/1
 Router(config-if)#no shutdown
 Router(config-if)#ip address 11.1.1.1 255.255.255.0
