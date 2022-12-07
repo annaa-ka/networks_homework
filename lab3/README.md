@@ -22,6 +22,7 @@ ip dhcp
 ```
 
 4) Switch-4
+```
 Все аналогично прошлому дз
 ```
 5) Switch-5
@@ -75,6 +76,8 @@ Router#wr
 
 ```
 7) Router
+
+```
 Router>enable
 Router#conf t
 Router(config)#interface e0/0
@@ -82,3 +85,4 @@ Router(config-if)#no shutdown
 Router(config-if)#ip address 11.0.10.2 255.255.255.0
 Router(config-if)#exit
 Router#wr
+```
